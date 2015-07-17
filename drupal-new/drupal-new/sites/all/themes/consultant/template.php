@@ -8,4 +8,8 @@ function consultant_form_alter(&$form, &$form_state, $form_id) {
     $form['actions']['submit']['#value'] = t("Login");
   }
 }
+
+function consultant_preprocess_views_view_list(&$vars){
+	print_r($vars);die('...');
+}
 ?>

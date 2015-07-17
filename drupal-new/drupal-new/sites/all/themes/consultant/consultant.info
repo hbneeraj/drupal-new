@@ -6,6 +6,8 @@ stylesheets[all][] = style.css
 
 regions[header] = Header
 regions[userlogin_block] = User Login Block Section
+regions[services_block] = Services Taxonomy Section
+regions[archives_block] = Archives Taxonomy Section
 regions[content] = Content
 
 regions[footer_firstcolumn] = Footer first column

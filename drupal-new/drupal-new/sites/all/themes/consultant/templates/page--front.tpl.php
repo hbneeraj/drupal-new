@@ -24,8 +24,8 @@
 		<div id="register"><a href="#">register now</a></div>
 		</form>-->
 		<?php print render($page['userlogin_block']);?>
-		
-		<h2>services</h2>
+		<?php print render($page['services_block']);?>
+		<!--<h2>services</h2>
 		<ul class="linkone">
 			<li><a href="#">pit tellus, at</a></li>
 			<li><a href="#">iaculis ante</a></li>
@@ -38,7 +38,7 @@
 			<li><a href="#">ucont cont,</a></li>
 			<li><a href="#">ucont cont,</a></li>
 			<li><a href="#">rhoncus</a></li>
-		</ul>
+		</ul>-->	
   </div>
   <div id="rightPan">
 	   	

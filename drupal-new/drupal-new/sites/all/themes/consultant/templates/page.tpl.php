@@ -14,7 +14,7 @@
 
 		
 		<!--< ?php endif; ?>-->
-		<form action="" method="post">
+		<!--<form action="" method="post">
 			<h2>members login</h2>
 			<label>Log In:</label>
 		<input name="Your name" type="text" id="Yourname" />
@@ -22,8 +22,10 @@
 		<input name="password" type="password" id="password" />
 		<input name="" type="submit" class="button" value="Login" />
 		<div id="register"><a href="#">register now</a></div>
-		</form>
-		<h2>services</h2>
+		</form>-->
+		<?php print render($page['userlogin_block']);?>
+		<?php print render($page['services_block']);?>
+		<!--<h2>services</h2>
 		<ul class="linkone">
 			<li><a href="#">pit tellus, at</a></li>
 			<li><a href="#">iaculis ante</a></li>
@@ -36,7 +38,7 @@
 			<li><a href="#">ucont cont,</a></li>
 			<li><a href="#">ucont cont,</a></li>
 			<li><a href="#">rhoncus</a></li>
-		</ul>
+		</ul>-->
   </div>
   <div id="rightPan">
    	<h1>A new begining<br /><span>senectus et netus et<br /> 
